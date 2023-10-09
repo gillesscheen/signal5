@@ -1,0 +1,35 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+parts:
+  - caption: Notions élémentaires
+    chapters:
+    - file: notions/definition
+      title: Traitement du signal ?
+    - file: notions/Signal
+      title: Un signal ?
+    - file: notions/classification
+      title: Classification des signaux
+    - file: notions/signaux-elementaires
+      title: Signaux élémentaires 
+    - file: notions/proprietes-des-signaux
+      title: Propriétés des signaux 
+    - file: notions/energie-puissance
+      title: Énergie et puissance
+  - caption: Analyse de Fourier
+    chapters: 
+    - file: fourier/motivation
+      title: Motivations
+    - file: fourier/series
+      title: Séries de Fourier
+    - file: fourier/transf
+      title: Transformées de Fourier
+    - file: fourier/proprietes
+      title: Propriétés des transformations de Fourier 
+    - file: fourier/temps-frequence
+      title: Représentation temps-fréquence
+
+
+        
